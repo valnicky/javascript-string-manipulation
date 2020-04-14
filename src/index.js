@@ -24,9 +24,9 @@ const transformLineEnding = (string, lineEnding) => {
 };
 
 const LineEndings = {
-  Symbol(CR): "CR",
-  Symbol(LF): "LF",
-  Symbol(CRLF): "CRLF"
+  CR: "CR",
+  LF: "LF",
+  CRLF: "CRLF"
 };
 
 const LineEndingReplacements = {
