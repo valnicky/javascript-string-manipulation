@@ -8,7 +8,7 @@ const cr = () => { };
 const crlf = () => { };
 
 const transformLineEnding = (string, lineEnding) => {
-  { replaceLF, replaceCR, replaceCRLF } = LineEndingReplacements;
+  const { replaceCR, replaceCRLF, replaceLF } = LineEndingReplacements;
   string = (string != null ? string.toString() : "");
 
   if (lineEnding === LineEndings.CR) {
